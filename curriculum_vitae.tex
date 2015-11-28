@@ -1,0 +1,240 @@
+%!TEX program = xelatex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass['print']{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{stefan}{åhman}{software developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Vikvägen 8
+136 75, Vendelsö
+Sweden
+~
++46 (0) 70 616 85 70
+~
+\href{mailto:stefan.ahman@gmail.com}{stefan.ahman@gmail.com}
+\href{http://www.stefanahman.se}{stefanahman.se}
+\section{languages}
+Swedish mother tongue
+English fluently
+\section{programming}
+Java, Python
+C, C++, C\#
+Erlang, Haskell
+Javascript, PHP
+CSS3 \& HTML5
+LaTeX, Matlab, Julia
+Git, Subversion
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2012--Now}
+{Master {\normalfont of Software Engineering of Distributed Systems}}
+{Royal Institute of Technology, Stockholm}
+{Studying the final year of the Master degree program (120 credits) concerning distributed systems.}
+%------------------------------------------------
+\entry
+{2012}
+{Bachelor {\normalfont thesis}}
+{Aptilo Networks, Stockholm}
+{Developed a Wireshark dissector and made a performance analysis for Aptilo's own developed protocol.}
+%------------------------------------------------
+\entry
+{2009--2012}
+{Bachelor {\normalfont of Information and Communication Technology}}
+{Royal Institute of Technology, Stockholm}
+{Studied the IT degree program (180 credits), targeting various basic programming and engineering courses. The third year contained mostly elective courses, and was focused towards distributed systems, which later my Master program would concern.}
+%------------------------------------------------
+\entry
+{2006--2009}
+{High school diploma {\normalfont in Science}}
+{Fredrika Bremergymnasierna, Stockholm}
+{Studied 2700 high school points in Science program. Found my interests for mathematics, programming, and technology.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2012--Now}
+{AudioApps}
+{Stockholm}
+{\emph{Android Developer} \\
+Developing the Android version of the moblie application. The application mainly are used by museums and city tour companies, focusing on bringing a tour into the customer's pocket. I've familiarized myself with the Android Application Framework during this project.}
+%------------------------------------------------
+\entry
+{2008--2010}
+{Hemköp}
+{Gullmarsplan, Stockholm}
+{\emph{Cashier} \\
+Worked as a cashier, but also in store, maintaining the goods. It was a great experience to get in touch with a lot of customers daily, with different requests. I usually worked at weekends, holidays, and whenever I could get off school.}
+%------------------------------------------------
+\entry
+{2006-2008}
+{Swedol}
+{Tyresö, Stockholm}
+{\emph{Warehouse worker} \\
+Worked as a warehouse worker during weekends, holidays. My duties varied a lot, as I could handle the internal post/packages, be a cashier, or load/unload shippings.}
+%------------------------------------------------
+\end{entrylist}
+
+\clearpage
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{projects}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014--Now}
+{Game Development}
+{Stockholm}
+{\emph{Developer} \\
+Developing a 3D multiplayer game using Unity with a crew.}
+%------------------------------------------------
+\entry
+{2012--Now}
+{Afrify}
+{Haninge, Stockholm}
+{\emph{Co-founder} \\
+Co-founder of an organization for helping needy families in Tanzania, Africa. Every chosen family gets a complete installation of a solar panel system in their home; consisting of a car battery, a pair of LED lamps and a cell phone charger. Visit \href{http://www.afrify.com}{http://www.afrify.com} for more information.}
+%------------------------------------------------
+\entry
+{2010--2011}
+{Quadrocopter}
+{Stockholm}
+{\emph{Developer} \\
+Built a quadcopter from scratch together with a crew from school. Was in charge of, and developed the steering control system using microchip processors and low-level programming.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{awards}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2009}
+{Best contribution}
+{Webbstjärnan, .SE}
+{Awarded for the project work in high school as best contribution.}
+%------------------------------------------------
+\entry
+{2009}
+{Best multidisciplinary contribution}
+{Webbstjärnan, .SE}
+{Awarded for the project work in high school as best multidisciplinary contribution.}
+%------------------------------------------------
+\entry
+{2009}
+{Environmental Award}
+{Haninge Municipality, Stockholm}
+{Awarded for the project work in high school.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{communication}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2012}
+{Oral Presentation}
+{Aptilo Networks}
+{Presented the research I conducted for my Bachelor of Information and Communication Technology degree.}
+%------------------------------------------------
+\entry
+{2011}
+{Quadrocopter presentation}
+{Royal Institute of Technology, Stockholm}
+{Participated in Future Friday and showed up and informed about the ongoing quadcopter development process for high school students.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} android apps, databases, web design, software development \\\textbf{personal:} sports, food, photography, gaming
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{publications}
+%
+%\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+%
+%\printbibsection{book}{books} % Print all books from the bibliography
+%
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%
+%\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+%
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
